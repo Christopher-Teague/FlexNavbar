@@ -1,0 +1,10 @@
+.nav {
+    height: 75px;
+    width: 750px;
+    background-color: black;
+    display: inline-block;
+}
+
+.nav-title {
+    align-items: flex-start;
+}
