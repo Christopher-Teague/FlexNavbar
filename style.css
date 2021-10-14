@@ -1,10 +1,40 @@
-.nav {
-    height: 75px;
-    width: 750px;
-    background-color: black;
-    display: inline-block;
+* {
+    font-family: "Roboto", sans-serif;
 }
 
+.nav {
+    /* height: 50px; */
+    /* width: 1000px; */
+    background-color: grey;
+    display: flex;
+    /* flex: auto; */
+    }
+
 .nav-title {
-    align-items: flex-start;
+    width: 100px;
+    align-items: center;
+    /* justify-content: left; */
+    padding-left: 20px;
+}
+
+.nav-links {
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.center {
+    flex: auto;
+}
+
+.right {
+    /* display: inline-block; */
+    justify-content: flex-end;
+    /* padding-left: 30%; */
+    /* padding-right: 10px; */
+}
+
+li {
+    padding: 5px;
 }
